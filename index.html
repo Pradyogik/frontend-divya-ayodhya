@@ -178,23 +178,53 @@
       const services = [
         {
           image: 'Assets/Images/Rectangle 1075.png',
-          name: 'Amar Villa',
-          location: '5/8/90, Amaniganj Ram Path, Ayodhya Nandigram, Bharatkund, Ayodhya',
+          name: 'Stay in Ayodhya',
+          location: 'Stay home in professional Ayodhya Nandigram, Bharatkund, Ayodhya',
+        },
+        {
+          image: 'Assets/Images/image-aa.png',
+          name: 'About Ayodhya',
+          location: 'Capital city of Kosala, land of Ayodhya Nandigram, Bharatkund, Ayodhya',
         },
         {
           image: 'Assets/Images/image (a).png',
-          name: 'Nandigram Eco Friendly Villa',
-          location: 'Nandigram, Bharatkund, Ayodhya Nandigram, Bharatkund, Ayodhya',
+          name: 'Vision 2047',
+          location: 'changing ayodhya with religoius, Ayodhya Nandigram, Bharatkund, Ayodhya',
         },
         {
           image: 'Assets/Images/image (b).png',
-          name: 'Shri Ram Kripa Kunj Homestay',
-          location: 'Agnikund, Ayodhya Nandigram, Bharatkund, Ayodhya',
+          name: 'Parking in Ayodhya',
+          location: 'multi-level high-tech parking for car',
         },
         {
           image: 'Assets/Images/image (c).png',
-          name: 'Shree Hanumant Place',
-          location: 'Balu Ghat Ayodhya',
+          name: 'Souvenir',
+          location: 'Stay home in professional, Ayodhya Nandigram, Bharatkund, Ayodhya',
+        },
+        {
+          image: 'Assets/Images/image (d).png',
+          name: 'Book Guide',
+          location: 'Capital city of Kosala, Ayodhya Nandigram, Bharatkund, Ayodhya',
+        },
+        {
+          image: 'Assets/Images/image (5).png',
+          name: 'Multi Visit Places',
+          location: 'changing ayodhya with religoius Ayodhya Nandigram, Bharatkund, Ayodhya',
+        },
+        {
+          image: 'Assets/Images/image (6).png',
+          name: 'Utilities in Ayodhya',
+          location: 'multi-level high-tech parking for car',
+        },
+        {
+          image: 'Assets/Images/image (7).png',
+          name: 'Book Cabs',
+          location: 'Capital city of Kosala, Ayodhya Nandigram, Bharatkund, Ayodhya',
+        },
+        {
+          image: 'Assets/Images/image (8).png',
+          name: 'Tour Packages',
+          location: 'changing ayodhya with religoius Balu Ghat Ayodhya',
         }
       ];
 
@@ -202,12 +232,12 @@
 
       services.forEach(service => {
         hServContainer.innerHTML += `
-          <div class='col-md-3'>
-            <div class='card homeStayCard'>
-              <img src='${service.image}' class='card-img-top' alt='${service.name}'>
-              <div class='card-body'>
-                <h5 class='card-title homeStayCardTitle'>${service.name}</h5>
-                <p class='card-text homeStayCardText'>
+          <div class='col-md-3 hServCol'>
+            <div class='card hServCard '>
+               <img src='${service.image}' class='card-img-top' alt='${service.name}'>
+               <div class='card-body'>
+                 <h5 class='card-title hServCardTitle'>${service.name}</h5>
+                 <p class='card-text hServCardText'>
                   <i class='fa-solid fa-location-dot' style='color: #E4821C;'></i> ${service.location}
                 </p>
               </div>

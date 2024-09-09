@@ -351,7 +351,7 @@
 }
 .hServCard {
   flex: 0 0 100%;
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
   /* background-color: #faebcb73 !important; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border: none !important;
@@ -366,13 +366,13 @@
 }
 .hServCardTitle {
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #401408 !important;
 }
 
 .hServCardText {
   /* font-size: 0.875rem; */
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #8f8f8f;
   font-weight: 500;
   display: -webkit-box;
@@ -390,7 +390,7 @@
 
 .text-danger {
   color: #fd4a36 !important;
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 .btnRight {
