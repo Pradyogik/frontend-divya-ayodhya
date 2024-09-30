@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+#package-section {
+    background-image: url('../Images/ram_jyoti.png');
+    background-size: cover;
+    background-position: center;
+    /* min-height: 100vh; */
+    font-family: "Lora", serif;
+    /* padding: 3rem 0 9rem 0; */
+    padding: 9rem 0;
+
+}
+
+#package-section p , #package-section > ul {
+    font-weight: 500;
+}
+.packageCard h3{
+    font-weight: 700 !important;
+    font-family: "Lato", sans-serif;
+    
+}
+.packageCard h3 > a{
+  padding: .8rem 3.5rem !important;
+  border-radius: 25px !important;
+  font-weight: 700 !important;  
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+#package-section h4{
+    color: #FF5C01;
+    font-weight: 700 !important;
+    font-family: "Work Sans", sans-serif;
+}
+
+.packageCard {
+    background-color: white;
+    border-radius: 25px !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 1.5rem;
+}
+
+ul {
+    list-style-type: decimal;
+}
+
+.btn-warning {
+    font-weight: 700 !important;
+    padding: 10px 20px;
+}
+/* .packageCol{
+    padding: 3rem 0;
+} */
+/* second section  */
+#package-section2{
+    background-image: url('../Images/sita_sobha.png');
+    background-size: cover;
+    background-position: center;
+    /* min-height: 100vh; */
+    font-family: "Lora", serif;
+    /* padding: 3rem 0 5rem 0; */
+    padding: 8rem 0;
+}
+
+#package-section2 p , #package-section2 ul {
+    font-weight: 500;
+}
+.packageCard2 h3{
+    font-weight: 700 !important;
+    font-family: "Lato", sans-serif;
+    
+}
+.packageCard2 h3 > a{
+  padding: .8rem 3.5rem !important;
+  border-radius: 25px !important;
+  font-weight: 700 !important;  
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+#package-section2 h4{
+    color: #FF5C01;
+    font-weight: 700 !important;
+    font-family: "Work Sans", sans-serif;
+}
+
+.packageCard2 {
+    background-color: white;
+    border-radius: 25px !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 1.5rem;
+
+}
+
+ul {
+    list-style-type: decimal;
+}
+
+.btn-warning {
+    font-weight: 700 !important;
+    padding: 10px 20px;
+}
+/* .packageCol2{
+    padding: 5rem 0;
+} */
+
+/* section below hero section */
+#deepotsav-section {
+    background-image: url('../Images/ayodhya_deepotsav-copy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6rem 0 !important;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.separator {
+    width: 100px;
+    height: 4px;
+    background-color: #ffc107; /* Yellowish separator */
+}
+
+#deepotsav-section  img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+#deepotsav-section h2 , #deepotsav-section p{
+    font-family: "Baloo 2", sans-serif;
+    text-align: center;
+}
+@media only screen and (max-width: 320px){
+    #deepotsav-section{
+        padding: 1rem 0 !important;
+    }
+    #deepotsav-section h2{
+        font-size: 1.3rem;
+    }
+    #deepotsav-section p{
+        font-size: .9rem;
+    }
+    #package-section{
+        padding: 1rem 0 !important;
+    }
+    .packageCard{
+        padding: 3rem 1rem !important;
+    }
+    .packageCard h3 > a {
+        bottom: .5rem;
+        right: 2.5rem;
+    }
+    #package-section2{
+        padding: 1rem 0 !important;
+    }
+    .packageCard2{
+        padding: 3rem 1rem !important;
+    }
+    .packageCard2 h3 > a {
+        bottom: .5rem;
+        right: 2.5rem;
+    }
+}
+/* Mobile Phones (Portrait) */
+ @media only screen and (min-width: 321px) and (max-width: 480px) {
+    #deepotsav-section{
+        padding: 1rem 0 !important;
+    }
+    #deepotsav-section h2{
+        font-size: 1.3rem;
+    }
+    #deepotsav-section p{
+        font-size: .9rem;
+    }
+    #package-section{
+        padding: 1rem 0 !important;
+    }
+    .packageCard{
+        padding: 3rem 1rem !important;
+    }
+    .packageCard h3 > a {
+        bottom: .5rem;
+        right: 20%;
+    }
+    #package-section2{
+        padding: 1rem 0 !important;
+    }
+    .packageCard2{
+        padding: 3rem 1rem !important;
+    }
+    .packageCard2 h3 > a {
+        bottom: .5rem;
+        right: 20%;
+    }
+  } 
+
+
+  
+  /* Tablets (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .packageCard{
+        padding: 3rem 1.5rem !important;
+    }
+    .packageCard h3 > a {
+        bottom: .5rem;
+        right: 20%;
+    }
+    #package-section2{
+        padding: 1rem 0 !important;
+    }
+    .packageCard2{
+        padding: 3rem 1.5rem !important;
+    }
+    .packageCard2 h3 > a {
+        bottom: .5rem;
+        right: 20%;
+    }
+  }
+  
+  /* Tablets (Landscape) */
+  @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .packageCard{
+        padding: 3rem 1.5rem !important;
+    }
+    .packageCard h3 > a {
+        bottom: .5rem;
+        right: 25%;
+    }
+    #package-section2{
+        padding: 1rem 0 !important;
+    }
+    .packageCard2{
+        padding: 3rem 1.5rem !important;
+    }
+    .packageCard2 h3 > a {
+        bottom: .5rem;
+        right: 25%;
+    }
+  }
+  
+  /* Small Laptops and Desktops */
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .packageCard{
+        padding: 3rem 2rem !important;
+    }
+    .packageCard h3 > a {
+        bottom: .5rem;
+        right: 25%;
+    }
+    #package-section2{
+        padding: 1rem 0 !important;
+    }
+    .packageCard2{
+        padding: 3rem 2rem !important;
+    }
+    .packageCard2 h3 > a {
+        bottom: .5rem;
+        right: 25%;
+    }
+  }
+  
+  /* Medium to Large Desktops */
+  @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    /* Styles for medium to large desktops */
+  }
+  
+  /* Large Desktops and TVs */
+  @media only screen and (min-width: 1440px) {
+    /* Styles for large desktops and TVs */
+  }
+  
