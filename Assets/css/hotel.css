@@ -1,9 +1,61 @@
+.SearchSection{
+  background-image: url('../Images/sita_sobha.png');
+  background-position: center;
+  background-size: cover;
+  padding: 5rem 10rem;
+  margin-bottom: 1rem;
+  font-family: "Poppins", system-ui;
+  
+}
+.search-container {
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  padding: 1.5rem !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-container > *{
+border-right: #4b55634f 2px solid;
+padding-right: 1rem;
+}
+.search-container :nth-child(5){
+  border-right: none;
+}
+.search-btn {
+  background-color: #b51a34 !important;
+  color: white !important;
+  border: none;
+  margin-top: 1.7rem;
+  padding: .7rem !important;
+}
+.form-control::placeholder {
+  color: #5F6368;
+}
+.form-control , .form-select{
+  padding: .7rem !important;
+  border-color: black !important;
+}
+.form-label{
+  color: black;
+  font-weight: 500 !important ;
+}
+.search-container input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+
+/* search section ends */
+body{
+  background-color: #faebcb !important;
+}
 .hotelSectContent{
 display: flex;
 align-items: flex-start;
 justify-content: space-between;
 margin: 2.5rem 0;
 font-family: "Poppins", system-ui;
+
 }
 .hotelSectContent button{
     background-color: #401408;
@@ -13,6 +65,10 @@ font-family: "Poppins", system-ui;
     font-family: "Poppins", system-ui;
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
+    background-color: white !important;
+    padding: 2rem !important;
+    box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
   }
   #hotelRow {
     display: flex;
@@ -65,6 +121,19 @@ font-family: "Poppins", system-ui;
   }
   /* Mobile Phones (Portrait) */
   @media only screen and (max-width: 480px) {
+      .search-container{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
+      .search-container div{
+        border: none !important;
+        width: 280px;
+        padding-bottom: 1rem;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+      }
+      
       .hotelSectContent{
         flex-direction: column;
         gap: 1rem;
@@ -99,6 +168,15 @@ font-family: "Poppins", system-ui;
 
     /* Mobile Phones (Landscape) */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
+  .search-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-container div{
+    border: none !important;
+    width: 450px;
+  }
     .hotelCardCol {
         flex: 0 0 49.333%;
         display: flex;
@@ -113,6 +191,15 @@ font-family: "Poppins", system-ui;
 
   /* Tablets (Portrait) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .search-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-container div{
+    border: none !important;
+    width: 450px;
+  }
     .hotelCardCol {
         flex: 0 0 49.333% !important;
         display: flex !important;
@@ -124,4 +211,8 @@ font-family: "Poppins", system-ui;
         display: none;
       }
   }
-  
+  @media only screen and (min-width: 992px) {
+    .search-container{
+      flex-wrap: wrap;
+    }
+  }
