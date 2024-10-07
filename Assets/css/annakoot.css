@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+#annakoot-section {
+    background-image: url('../Images/Group\ 1000004756.png');
+    background-size: cover;
+    background-position: center;
+    /* min-height: 100vh; */
+    font-family: "Lora", serif;
+    /* padding: 3rem 0 9rem 0; */
+    padding: 9rem 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+#annakoot-section p , #annakoot-section > ul {
+    font-weight: 500;
+}
+
+.annakootCard h3{
+    font-weight: 700 !important;
+    font-family: "Lato", sans-serif;
+    
+}
+.annakootCard h3 > a{
+  padding: .8rem 3.5rem !important;
+  border-radius: 25px !important;
+  font-weight: 700 !important;  
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+#annakoot-section h4{
+    /* color: #FF5C01; */
+    font-weight: 700 !important;
+    font-family: "Work Sans", sans-serif;
+}
+
+.annakootCard {
+    background-color: #00000063 !important;
+    color: white !important;
+    border-radius: 25px !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 1.5rem;
+}
+.annakootImgDiv img{
+    display: none;
+}
+ul {
+    list-style-type: decimal;
+}
+.card-title{
+    font-family: "Gelasio", serif;
+}
+.btn-warning {
+    font-weight: 700 !important;
+    padding: 10px 20px;
+}
+/* .annakootCol{
+    padding: 3rem 0;
+} */
+/* second section  */
+#annakoot-section2{
+    background-image: url('../Images/sita_sobha.png');
+    background-size: cover;
+    background-position: center;
+    /* min-height: 100vh; */
+    font-family: "Lora", serif;
+    /* padding: 3rem 0 5rem 0; */
+    padding: 8rem 0;
+}
+
+#annakoot-section2 p , #annakoot-section2 ul {
+    font-weight: 500;
+}
+.annakootCard2 h3{
+    font-weight: 700 !important;
+    font-family: "Lato", sans-serif;
+    
+}
+.annakootCard2 h3 > a{
+  padding: .8rem 3.5rem !important;
+  border-radius: 25px !important;
+  font-weight: 700 !important;  
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+#annakoot-section2 h4{
+    color: #FF5C01;
+    font-weight: 700 !important;
+    font-family: "Work Sans", sans-serif;
+}
+
+.annakootCard2 {
+    background-color: white;
+    border-radius: 25px !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 1.5rem;
+
+}
+
+ul {
+    list-style-type: decimal;
+}
+
+.btn-warning {
+    font-weight: 700 !important;
+    padding: 10px 20px;
+}
+/* .annakootCol2{
+    padding: 5rem 0;
+} */
+
+@media only screen and (max-width: 320px){
+    .annakootImgDiv{
+        padding: 0 !important;
+    }
+    .annakootImgDiv img{
+        display: block;
+    }
+    #annakoot-section{
+        padding: 0 !important;
+        background-image: none !important;
+        background-color: black;
+    }
+    .annakootCard{
+        padding: 3rem 1rem !important;
+    }
+    .annakootCard h3 > a {
+        bottom: .5rem;
+        right: 2.5rem;
+    }
+    #annakoot-section2{
+        padding: 1rem 0 !important;
+    }
+    .annakootCard2{
+        padding: 3rem 1rem !important;
+    }
+    .annakootCard2 h3 > a {
+        bottom: .5rem;
+        right: 2.5rem;
+    }
+}
+/* Mobile Phones (Portrait) */
+ @media only screen and (min-width: 321px) and (max-width: 480px) {
+    .annakootImgDiv{
+        padding: 0 !important;
+    }
+    .annakootImgDiv img{
+        display: block;
+    }
+    #annakoot-section{
+        padding: 0 !important;
+        background-image: none !important;
+        background-color: black;
+    }
+    .annakootCard{
+        padding: 3rem 1rem !important;
+    }
+    .annakootCard h3 > a {
+        bottom: .5rem;
+        right: 20%;
+    }
+    #annakoot-section2{
+        padding: 1rem 0 !important;
+    }
+    .annakootCard2{
+        padding: 3rem 1rem !important;
+    }
+    .annakootCard2 h3 > a {
+        bottom: .5rem;
+        right: 20%;
+    }
+  } 
+
+/* Mobile Phones (Landscape) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .annakootImgDiv{
+        padding: 0 !important;
+    }
+    .annakootImgDiv img{
+        display: block;
+    }
+    #annakoot-section{
+        padding: 0 !important;
+        background-image: none !important;
+        background-color: black;
+    }
+  }
+  
+  /* Tablets (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .annakootCard{
+        padding: 3rem 1.5rem !important;
+    }
+    .annakootCard h3 > a {
+        bottom: .5rem;
+        right: 20%;
+    }
+    #annakoot-section2{
+        padding: 1rem 0 !important;
+    }
+    .annakootCard2{
+        padding: 3rem 1.5rem !important;
+    }
+    .annakootCard2 h3 > a {
+        bottom: .5rem;
+        right: 20%;
+    }
+  }
+  
+  /* Tablets (Landscape) */
+  @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .annakootCard{
+        padding: 3rem 1.5rem !important;
+    }
+    .annakootCard h3 > a {
+        bottom: .5rem;
+        right: 25%;
+    }
+    #annakoot-section2{
+        padding: 1rem 0 !important;
+    }
+    .annakootCard2{
+        padding: 3rem 1.5rem !important;
+    }
+    .annakootCard2 h3 > a {
+        bottom: .5rem;
+        right: 25%;
+    }
+  }
+  
+  /* Small Laptops and Desktops */
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .annakootCard{
+        padding: 3rem 2rem !important;
+    }
+    .annakootCard h3 > a {
+        bottom: .5rem;
+        right: 25%;
+    }
+    #annakoot-section2{
+        padding: 1rem 0 !important;
+    }
+    .annakootCard2{
+        padding: 3rem 2rem !important;
+    }
+    .annakootCard2 h3 > a {
+        bottom: .5rem;
+        right: 25%;
+    }
+  }
+  
+  
