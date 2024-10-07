@@ -1,0 +1,106 @@
+.custom-card {
+    border: none;
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 !important;
+    font-family: 'poppins' , sans-serif;
+    
+  }
+  .image-container {
+    border-radius: 0.375rem;
+  }
+  .image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .loginWrapper{
+   /* background-color: black; */
+   background-image: url('../Images/Frame\ 5846.png');
+   background-repeat: no-repeat;
+   /* background-position: 100%; */
+   background-size: contain;
+  }
+ .loginInput{
+    width: 350px !important;
+    border: 1px solid #d8dadc7d !important;
+    padding: .75rem 1rem !important;
+    border-radius: 10px !important;
+ }
+ .login-card h1{
+    color: #401408 !important;
+    font-weight: 700;
+ }
+ .loginForm label , .loginForm a{
+    color: #401408 !important;
+    font-weight: 500;
+    text-decoration: none;
+ }
+ .loginBtn{
+    background-color: #401408 !important;
+    padding: .75rem 1rem !important;
+    border-radius: 10px !important;
+    color: white !important;
+ }
+ /* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+    .loginRow{
+        gap: 2rem;
+        
+    }
+    .loginRow>*{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .loginInput{
+        width: 280px !important;
+    }
+    .loginWrapper{
+        background-size: cover;
+        padding: 5rem 1rem !important;
+    }
+    .login-container{
+        padding: .5rem 0 !important;
+    }
+  }
+  
+  /* Mobile Phones (Landscape) */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    .loginRow{
+        gap: 2rem;
+        
+    }
+    .loginWrapper{
+        background-size: cover;
+        background-position: 100%;
+        padding: 7rem 1rem !important;
+        border-radius: 25px !important;
+        
+    }
+    .loginRow>*{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .login-container{
+        padding: .5rem 1rem !important;
+    }
+  }
+  
+  /* Tablets (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .loginInput{
+        width: 280px !important;
+    }
+    .loginWrapper{
+        background-size: cover;
+        background-position: 100%;
+        /* padding: 7rem 1rem !important; */
+        border-radius: 25px !important;
+        
+    }
+  }
+  
+  
