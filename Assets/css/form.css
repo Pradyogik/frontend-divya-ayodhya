@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+#form-section{
+    background-image: url('../Images/form-bg-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    font-family: 'poppins' , sans-serif;
+}
+#form-section-2{
+    background-image: url('../Images/form-bg-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: 'poppins' , sans-serif;
+}
+.formRow{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    /* width: 400px; */
+}
+
+
+.form-container input, .form-container select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.form-container input::placeholder {
+    color: #999;
+    font-size: 18px;
+}
+
+.form-container .nextButton {
+    width: 100%;
+    padding: 12px;
+    /* margin-top: 200px; */
+    /* background-color: #f4a300; */
+    background-color: #e4821c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nextButton {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #aa661e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.payNowButton {
+    width: 100%;
+    padding: 12px;
+    /* margin-top: 200px; */
+    /* background-color: #f4a300; */
+    background-color: #e4821c !important;
+    color: white !important;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.form-container .nextButton:hover {
+    background-color: #dc8700;
+}
+
+.form-container label {
+    font-size: 18px;
+    color: #5C4033;
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 15px;
+}
+.h2_Fill {
+    /* font-size: 22px; */
+    font-weight: 600;
+    color: #401408;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+  /* Tablets (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+   .formCol{
+    flex: 0 0 auto;
+    width: 55.333333% !important;
+   }
+  }
+  
+  /* Tablets (Landscape) */
+  @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .formCol{
+        flex: 0 0 auto;
+        width: 45.333333% !important;
+    }
+  }
+  
+  /* Small Laptops and Desktops */
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .formCol{
+        flex: 0 0 auto;
+        width: 45.333333% !important;
+    }
+  }
+  
+  /* Medium to Large Desktops */
+  @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    .formCol{
+        flex: 0 0 auto;
+        width: 35.333333% !important;
+    }
+  }
+  
+  
