@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+
+
+#diya-section{
+    padding: 2rem 0 !important;
+}
+.diyaRow{
+    gap: 2rem;
+}
+.diyaCard {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px !important;
+    padding: 1rem;
+    position: relative;
+
+}
+.diyaCard2{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px !important;
+    padding: 1rem;
+    position: relative;
+
+}
+
+.diyaCard img , .diyaCard2 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px !important;
+    border-bottom-right-radius: 25px !important;
+}
+.diyaCol h1 {
+    color: #E63D0B !important;
+    font-family: "Inria Serif", serif;
+}
+.diyaCol h4{
+    color: #E63D0B !important;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+.diyaCol p , .diyaCol li {
+    color: #616163;
+    font-weight: 500;
+    font-family: "Lora", serif;
+    
+
+ }
+ /* Mobile Phones (Portrait) */
+ @media only screen and (max-width: 320px) {
+    .diyaCard img , .diyaCard2 img{  
+        width: 85px !important;
+    }
+    .diyaCol li{
+        width: 80% !important;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px){
+    .diyaCard img , .diyaCard2 img{  
+        width: 100px !important;
+    }
+    .diyaCol li{
+        width: 70% !important;
+    }
+}
+@media only screen and (min-width: 376px) and (max-width: 480px){
+    .diyaCard img , .diyaCard2 img{  
+        width: 150px !important;
+    }
+    .diyaCol li{
+        width: 55% !important;
+    }
+}
+  
+  
+  /* Tablets (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .diyaCol{
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+  }
+  
